@@ -1,6 +1,6 @@
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
-	--background-base-low: var(--background-primary);
-	--background-base-lower: var(--background-primary);
+	--background-base-low: var(--white);
+	--background-base-lower: var(--white);
 	--background-base-lowest: var(--background-secondary);
 	--bg-base-tertiary: var(--background-tertiary);
 	--custom-channel-members-bg: var(--background-secondary);
@@ -65,7 +65,7 @@
 .visual-refresh {
 	/*servers and channels*/
 	.childWrapperNoHoverBg__6e9f8 {
-		background-color: var(--background-primary);
+		background-color: var(--white);
 	}
 	.sidebarListRounded_c48ade {
 		border-top-left-radius: unset;
@@ -305,7 +305,7 @@
 		border: 1px solid var(--background-tertiary);
 		border-radius: 4px;
 		-webkit-user-select: none;
-		background: var(--background-primary);
+		background: var(--white);
 		margin-right: unset;
 	}
 	.searchHeader_f3b986 {
@@ -420,7 +420,7 @@
 	}
 	.wrapper_f7ecac:not(.popover_c97e55) {
 		box-shadow: var(--elevation-stroke);
-		background: var(--background-primary);
+		background: var(--white);
 	}
 	.toolbar__9293f {
 		gap: unset;
@@ -503,7 +503,7 @@
 		box-shadow: var(--shadow-border), var(--shadow-high);
 		border-radius: 3px;
 		border: none;
-		background: var(--bg-overlay-3, var(--background-primary));
+		background: var(--bg-overlay-3, var(--white));
 	}
 	.container_fea832 {
 		background-color: var(--background-tertiary);
@@ -847,7 +847,7 @@
 		padding-left: 16px !important;
 		padding-right: 16px !important;
 		.channelTextArea_f75fb0 {
-			background: var(--background-primary) !important;
+			background: var(--white) !important;
 		}
 		.channelTextArea__74017 {
 			border: none;
@@ -1089,7 +1089,7 @@
 	}
 	.users__260e1 {
 		padding: 0 8px 0 6px;
-		background-color: var(--background-primary);
+		background-color: var(--white);
 	}
 	.total__260e1,
 	.users__260e1 {
@@ -1099,7 +1099,7 @@
 
 	/* placeholder gray square when moving a server icon */
 	.dragInner__87847 {
-		background-color: var(--background-primary) !important;
+		background-color: var(--white) !important;
 		border: none !important;
 	}
 	svg.placeholderMask__87847 {
