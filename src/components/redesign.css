@@ -1,9 +1,9 @@
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
 	--background-base-low: var(--background-primary);
 	--background-base-lower: var(--background-primary);
-	--background-base-lowest: var(--background-secondary);
-	--bg-base-tertiary: var(--background-tertiary);
-	--custom-channel-members-bg: var(--background-secondary);
+	--background-base-lowest: var(--background-primary);
+	--bg-base-tertiary: var(--background-primary);
+	--custom-channel-members-bg: var(--background-primary);
 	--background-mod-subtle: var(--background-modifier-hover);
 	--bg-brand: var(--blurple);
 	--modal-footer-background: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
@@ -34,7 +34,7 @@
 		top: 33px !important;
 	}
 	.scroller_ef3116 {
-		padding-top: 2000px !important;
+		padding-top: 2px !important;
 	}
 	.notice__6e2b9 {
 		margin-top: 0px !important;
