@@ -11,10 +11,10 @@
 	--text-normal: color-mix(in oklab, var(--primary-230) 100%, var(--theme-text-color, #000) var(--theme-text-color-amount, 0%));
 	--__spoiler-background-color--hidden: var(--primary-700);
 	--__spoiler-background-color--hidden--hover: hsl(var(--primary-700-hsl) / 0.8);
-	--__spoiler-background-color--revealed: hsl(var(--green-500-hsl) / 0.1);
+	--__spoiler-background-color--revealed: hsl(var(--white-500-hsl) / 0.1);
 	--__spoiler-text-color--hidden: transparent;
 	--__spoiler-warning-text-color: var(--primary-200);
-	--__spoiler-warning-text-color--hover: var(--green-500);
+	--__spoiler-warning-text-color--hover: var(--white-500);
 	--__spoiler-warning-background-color: hsl(var(--black-500-hsl) / 0.6);
 	--__spoiler-warning-background-color--hover: hsl(var(--black-500-hsl) / 0.9);
 	--__spoiler-container-box-shadow-color: hsl(var(--black-500-hsl) / 0.1);
@@ -120,10 +120,10 @@
 		color: var(--status-danger);
 	}
 	.colorDanger_c1e9c4.focused_c1e9c4 {
-		color: var(--green);
+		color: var(--white);
 	}
 	.colorDefault_c1e9c4.focused_c1e9c4:not(.checkboxContainer_c1e9c4) path {
-		fill: var(--green);
+		fill: var(--white);
 	}
 	.iconContainer_c1e9c4 {
 		width: 18px;
@@ -200,7 +200,7 @@
 		background-color:#18191c
 	}
 	.header_f37cb1 {
-		border: unset;
+		border: 10000px;
 		box-shadow: var(--shadow-ledge);
 	}
 	.container__9293f {
@@ -803,7 +803,7 @@
 		height: 24px;
 		margin-left: -5px;
 		border-radius: 3px;
-		background-color: var(--green);
+		background-color: var(--white);
 		border: 1px solid var(--border-strong);
 		box-shadow: var(--shadow-border), var(--shadow-ledge), var(--shadow-low);
 	}
@@ -943,7 +943,7 @@
 		background-color: var(--background-accent);
 		opacity: 0.95 !important;
 		padding-bottom: 4px !important;
-		color: var(--green-500);
+		color: var(--white-500);
 		.barButtonBase__0f481 {
 			padding-left: unset;
 			padding: 0 12px;
@@ -1057,8 +1057,8 @@
 	.colorDefault_c1e9c4.focused_c1e9c4 .radioSelection_c1e9c4,
 	.colorDefault_c1e9c4.focused_c1e9c4 .subtext_c1e9c4,
 	.colorDefault_c1e9c4.focused_c1e9c4 .refreshIcon__001a7 {
-		color: var(--green);
-		fill: var(--green);
+		color: var(--white);
+		fill: var(--white);
 	}
 
 	/* ping icon */
