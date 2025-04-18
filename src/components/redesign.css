@@ -1,9 +1,9 @@
 .theme-dark:not(html.custom-theme-background, :has(#clientThemeVars)) {
 	--background-base-low: var(--background-primary);
 	--background-base-lower: var(--background-primary);
-	--background-base-lowest: var(--background-primary);
-	--bg-base-tertiary: var(--background-primary);
-	--custom-channel-members-bg: var(--background-primary);
+	--background-base-lowest: var(--background-secondary);
+	--bg-base-tertiary: var(--background-tertiary);
+	--custom-channel-members-bg: var(--background-secondary);
 	--background-mod-subtle: var(--background-modifier-hover);
 	--bg-brand: var(--blurple);
 	--modal-footer-background: color-mix(in oklab, var(--primary-630) 100%, var(--theme-base-color, #000) var(--theme-base-color-amount, 0%));
@@ -65,7 +65,7 @@
 .visual-refresh {
 	/*servers and channels*/
 	.childWrapperNoHoverBg__6e9f8 {
-		background-color: var(--background-primary);
+		background-color: var(--background-tertiary);
 	}
 	.sidebarListRounded_c48ade {
 		border-top-left-radius: unset;
